@@ -1,3 +1,6 @@
+body{
+  background-color: #F0F5FF;
+}
 .forecast-container {
     text-align: center;
     margin: 20px;
@@ -17,7 +20,7 @@
   }
   
   .grid-item {
-    background-color: #f0f4f8;
+    background-color: white;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 10px;
