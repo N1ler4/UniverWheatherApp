@@ -1,0 +1,12 @@
+.btn.active1 {
+    background-color: rgb(0, 129, 0); /* Синий цвет для активного состояния */
+    color: white;
+}
+.btn.active2{
+    background-color: rgb(148, 23, 23); /* Синий цвет для активного состояния */
+    color: white;
+}
+.autobg{
+    background-image: url("../../assets/bgImg.png");
+    background-size: cover;
+}

@@ -1,0 +1,45 @@
+.forecast-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(120px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid-item {
+    background-color: #f0f4f8;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .temp {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .weather-icon img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .date {
+    font-size: 14px;
+    color: #555;
+  }
+  
